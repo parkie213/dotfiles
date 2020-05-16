@@ -1,0 +1,15 @@
+[user]
+	name = James Parker
+	email = <email goes here>
+[alias]
+	s = status
+	d = diff
+	co = checkout
+	br = branch
+	last = log -1 HEAD
+	cane = commit --amend --no-edit
+	lo = log --oneline -n 10
+	pr = pull --rebase
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[core]
+	editor = emacs
